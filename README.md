@@ -70,8 +70,7 @@ The system includes scheduling logic that automatically places tasks into availa
 
 Watch the project demo here:
 
-[Smart Household Scheduler Demo](https://drive.google.com/drive/folders/17vnL2uxifxltUNZ8K3Igee60o4QM_5v6?usp=drive_link)
-(Will delete after)
+[Smart Household Scheduler Demo](https://drive.google.com/file/d/1sOQ5WHeVXDjWM5CLW2jMgWm9XxbXhz-Y/view?usp=drive_link)
 
 
 # Project Structure
