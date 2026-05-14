@@ -66,6 +66,14 @@ The system includes scheduling logic that automatically places tasks into availa
 
 ---
 
+## Video Demo
+
+Watch the project demo here:
+
+[Smart Household Scheduler Demo](https://drive.google.com/drive/folders/17vnL2uxifxltUNZ8K3Igee60o4QM_5v6?usp=drive_link)
+(Will delete after)
+
+
 # Project Structure
 
 ```text
@@ -89,7 +97,7 @@ SmartHouseholdScheduler/
 
 ## 1. Download SQLite JDBC Driver
 
-Download the SQLite JDBC jar file and place it inside the `lib` folder:
+Download the SQLite JDBC jar file and place it inside the `ReferencedLibraries` folder:
 
 ```text
 sqlite-jdbc-xxxxx.jar
@@ -102,13 +110,13 @@ sqlite-jdbc-xxxxx.jar
 ### Windows
 
 ```bash
-javac -cp "lib/sqlite-jdbc-xxxxx.jar" -d out src/smarthouseholdscheduler/*.java
+javac -cp "ReferencedLibraries/sqlite-jdbc-xxxxx.jar" -d out src/smarthouseholdscheduler/*.java
 ```
 
 ### Mac/Linux
 
 ```bash
-javac -cp "lib/sqlite-jdbc-xxxxx.jar" -d out src/smarthouseholdscheduler/*.java
+javac -cp "ReferencedLibraries/sqlite-jdbc-xxxxx.jar" -d out src/smarthouseholdscheduler/*.java
 ```
 
 ---
@@ -118,13 +126,13 @@ javac -cp "lib/sqlite-jdbc-xxxxx.jar" -d out src/smarthouseholdscheduler/*.java
 ### Windows
 
 ```bash
-java -cp "out;lib/sqlite-jdbc-xxxxx.jar" smarthouseholdscheduler.Main
+java -cp "out;ReferencedLibraries/sqlite-jdbc-xxxxx.jar" smarthouseholdscheduler.Main
 ```
 
 ### Mac/Linux
 
 ```bash
-java -cp "out:lib/sqlite-jdbc-xxxxx.jar" smarthouseholdscheduler.Main
+java -cp "out:ReferencedLibraries/sqlite-jdbc-xxxxx.jar" smarthouseholdscheduler.Main
 ```
 
 ---
